@@ -14,4 +14,24 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
-print(1)
+# x = 1             # int
+# y = 2.5           # float
+# name = 'Brad'     # string
+# is_cool = True    # bool
+
+# Multiple assigment
+x, y, name, is_cool = (1, 2.5, 'Brad', True)
+
+print(x, y, name, is_cool)
+
+# Basic math
+a = x + y
+
+# Casting
+x = str(x)
+y = int(y)
+z = float(y)
+
+# Check type
+print(type(z))
+print(z)
